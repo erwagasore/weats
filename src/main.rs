@@ -20,5 +20,5 @@ impl fmt::Display for Greeting {
 
 fn main() {
     let greeting = Greeting::new("Kigali");
-    println!("Hello, {}!", greeting);
+    println!("{}", greeting);
 }
